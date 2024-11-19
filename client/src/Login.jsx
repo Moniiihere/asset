@@ -11,7 +11,7 @@ function Login() {
     e.preventDefault();
 
     axios
-      .post("https://post-api2.onrender.com/login", { email, password })
+      .post("https://asset-server-snowy.vercel.app/login", { email, password })
       .then((result) => {
         console.log(result);
         if (result.data === "success") {
