@@ -11,7 +11,7 @@ function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://post-api2.onrender.com/register", { name, email, password })
+      .post("https://asset-server-snowy.vercel.app/register", { name, email, password })
       .then((result) => {
         console.log(result);
         navigate("/login");
