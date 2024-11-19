@@ -14,7 +14,7 @@ function AdminDashboard() {
     e.preventDefault();
     
     axios
-      .post("http://localhost:3001/admin-dashboard", {
+      .post("https://post-api2.onrender.com/admin-dashboard", {
         EmployeeName,
         EmployeeId,
         Asset1,
