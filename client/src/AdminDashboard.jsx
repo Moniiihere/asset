@@ -14,7 +14,7 @@ function AdminDashboard() {
     e.preventDefault();
     
     axios
-      .post("https://post-api2.onrender.com/admin-dashboard", {
+      .post("https://asset-server-snowy.vercel.app/admin-dashboard", {
         EmployeeName,
         EmployeeId,
         Asset1,
